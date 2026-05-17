@@ -3,7 +3,7 @@
     --name-color: rgb(254, 204, 79);
     --header-color:  rgb(45, 42, 42);
 
-    .material-icons.md-100 { font-size: 100px; }
+    .material-icons.md-100 { font-size: 5vw; }
 }
 
 html {
@@ -321,29 +321,32 @@ img.game-img:hover {
 }
 
 #img1{
-    width: 230px;
-    height: 230px;
-    background-position: left top;
+    width: 15vw;
+    height: 15vw;
+    background-position: center center;
     background-image: url("nuke.gif");
-    background-size: 230px;
+    background-size: 15vw;
+    background-repeat: no-repeat;
     border-radius: 20px 5px 5px 20px;
 
 }
 #img2{
-    width: 230px;
-    height: 230px;
-    background-position: left top;
+    width: 15vw;
+    height: 15vw;
+    background-position: center center;
     background-image: url("wiggleorb.gif");
-    background-size: 230px;
+    background-size: 15vw;
+    background-repeat: no-repeat;
     border-radius: 5px;
 
 }
 #img3{
-    width: 230px;
-    height: 230px;
-    background-position: center top;
+    width: 15vw;
+    height: 15vw;
+    background-position: center center;
     background-image: url("wigglespike.gif");
-    background-size: 230px;
+    background-size: 15vw;
+    background-repeat: no-repeat;
     border-radius: 5px 20px 20px 5px;
 
 }
