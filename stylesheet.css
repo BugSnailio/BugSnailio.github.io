@@ -67,6 +67,22 @@ p {
 
 }
 
+/* Center the webring navigation */
+.webring-div .CTW-nav {
+    justify-content: center;
+}
+
+.webring-div .CTW-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
 .flex{
 
     display: flex;
