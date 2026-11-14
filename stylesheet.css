@@ -26,6 +26,47 @@ p {
 
 }
 
+.webring-div{
+
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+
+    background-color: var(--header-color);
+
+    margin-right: 12%;
+    margin-left: 12%;
+    padding: 2%;
+
+    border-radius: 20px;
+    
+
+    color: var(--name-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5vw;
+
+    /* Unvisited Link */
+        a:link {
+            color: #eb7900;
+            
+        }
+        /* Visited Link */
+        a:visited {
+            color: #eb7900;
+        }
+        /* Mouse Over Link */
+        a:hover {
+            color: #ff9728;
+            text-decoration: underline;
+        }
+        /* Click on Link */
+        a:active {
+            color: #e44c00;
+        }
+
+
+}
+
 .flex{
 
     display: flex;
@@ -352,9 +393,9 @@ img.game-img:hover {
 }
 
 .about-inner {
-justify-self: center;
-  width: 100%;
-  max-width:1100px;
-  background-color: white;
-  padding: 2%;
+    justify-self: center;
+    width: 100%;
+    max-width:1100px;
+    background-color: white;
+    padding: 2%;
 }
