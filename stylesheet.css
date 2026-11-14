@@ -45,6 +45,10 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5vw;
 }
+.webring-div a{
+
+    color: var(--name-color);
+}
 
 .flex{
 
@@ -390,31 +394,38 @@ img.game-img:hover {
     justify-content: center;
 }
 
-.webring-div #ctwebring ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+/* Webring buttons */
+.webring-div .CTW-link-name {
+    display: inline-block;
+    background-color: var(--name-color);
+    color: var(--header-color);
+    
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin: 5px;
 
-/* Webring links */
-.webring-div #ctwebring a,
-.webring-div #ctwebring a:link,
-.webring-div #ctwebring a:visited {
-    color: #eb7900 !important;
     text-decoration: none;
     font-family: 'Trebuchet MS', Arial, sans-serif;
-    font-size: inherit;
+    font-size: 1.5vw;
+    font-weight: bold;
+
+    transition: background-color 0.2s, transform 0.2s;
 }
 
-.webring-div #ctwebring a:hover {
-    color: #ff9728 !important;
-    text-decoration: underline;
+/* Hover effect */
+.webring-div .CTW-link-name:hover {
+    background-color: rgb(255, 168, 75);
+    color: var(--header-color);
+    transform: scale(0.97);
 }
 
-.webring-div #ctwebring a:active {
-    color: #e44c00 !important;
+/* Visited links */
+.webring-div .CTW-link-name:visited {
+    color: var(--header-color);
+}
+
+/* Keep the arrows aligned */
+.webring-div .CTW-link-direction {
+    color: var(--name-color);
+    font-size: 1.5em;
 }
