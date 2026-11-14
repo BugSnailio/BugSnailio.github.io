@@ -363,66 +363,12 @@ img.game-img:hover {
    COMPUTER ARTS CLUB WEBRING
 ================================= */
 
-.webring-div {
-    text-align: center;
-    background-color: var(--header-color);
-    color: var(--name-color);
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    font-size: 1.5vw;
-    margin: 0 12%;
-    padding: 2%;
-    border-radius: 20px;
-}
-
-.webring-div a{
-
-    color: var(--name-color);
-}
-
-.webring-div #ctwebring .CTW-nav {
-    display: flex;
-    justify-content: center;
-}
-
-/* Webring navigation */
-#ctwebring .CTW-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-/* Left and right website buttons */
-#ctwebring a.CTW-link-name,
-#ctwebring a.CTW-link-name:visited {
-    display: inline-block;
-    background-color: var(--name-color);
-    color: var(--header-color);
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    font-size: 1.5vw;
-    font-weight: bold;
-    text-decoration: none;
-
-    padding: 10px 20px;
-    border-radius: 12px;
-
-    transition: background-color 0.2s, transform 0.2s;
-}
-
-/* Hover */
-#ctwebring a.CTW-link-name:hover {
-    background-color: rgb(255, 168, 75);
-    color: var(--header-color);
-    text-decoration: none;
-    transform: scale(0.97);
-}
-
-/* Arrows */
-#ctwebring .CTW-link-direction {
-    color: var(--name-color);
-    font-size: 1.5em;
+/* TEST: Webring link styling */
+#ctwebring a.CTW-link-name {
+    background: yellow !important;
+    color: red !important;
+    font-size: 30px !important;
+    padding: 15px !important;
+    border: 3px solid blue !important;
+    text-decoration: none !important;
 }
