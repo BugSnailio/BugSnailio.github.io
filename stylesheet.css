@@ -46,40 +46,6 @@ p {
     font-size: 1.5vw;
 }
 
-.webring-div a:link {
-    color: #eb7900;
-}
-
-.webring-div a:visited {
-    color: #eb7900;
-}
-
-.webring-div a:hover {
-    color: #ff9728;
-    text-decoration: underline;
-}
-
-.webring-div a:active {
-    color: #e44c00;
-}
-
-
-/* Center the webring navigation */
-.webring-div .CTW-nav {
-    justify-content: center;
-}
-
-.webring-div .CTW-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-
 .flex{
 
     display: flex;
@@ -411,4 +377,44 @@ img.game-img:hover {
     max-width:1100px;
     background-color: white;
     padding: 2%;
+}
+
+
+/* Webring layout */
+.webring-div #ctwebring {
+    text-align: center;
+}
+
+.webring-div #ctwebring .CTW-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.webring-div #ctwebring ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Webring links */
+.webring-div #ctwebring a,
+.webring-div #ctwebring a:link,
+.webring-div #ctwebring a:visited {
+    color: #eb7900 !important;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: inherit;
+}
+
+.webring-div #ctwebring a:hover {
+    color: #ff9728 !important;
+    text-decoration: underline;
+}
+
+.webring-div #ctwebring a:active {
+    color: #e44c00 !important;
 }
