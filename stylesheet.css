@@ -44,28 +44,25 @@ p {
     color: var(--name-color);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5vw;
-
-    /* Unvisited Link */
-        a:link {
-            color: #eb7900;
-            
-        }
-        /* Visited Link */
-        a:visited {
-            color: #eb7900;
-        }
-        /* Mouse Over Link */
-        a:hover {
-            color: #ff9728;
-            text-decoration: underline;
-        }
-        /* Click on Link */
-        a:active {
-            color: #e44c00;
-        }
-
-
 }
+
+.webring-div a:link {
+    color: #eb7900;
+}
+
+.webring-div a:visited {
+    color: #eb7900;
+}
+
+.webring-div a:hover {
+    color: #ff9728;
+    text-decoration: underline;
+}
+
+.webring-div a:active {
+    color: #e44c00;
+}
+
 
 /* Center the webring navigation */
 .webring-div .CTW-nav {
