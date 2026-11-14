@@ -26,30 +26,6 @@ p {
 
 }
 
-.webring-div{
-
-    justify-content: center;
-    justify-self: center;
-    text-align: center;
-
-    background-color: var(--header-color);
-
-    margin-right: 12%;
-    margin-left: 12%;
-    padding: 2%;
-
-    border-radius: 20px;
-    
-
-    color: var(--name-color);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5vw;
-}
-.webring-div a{
-
-    color: var(--name-color);
-}
-
 .flex{
 
     display: flex;
@@ -383,10 +359,24 @@ img.game-img:hover {
     padding: 2%;
 }
 
+/* =================================
+   COMPUTER ARTS CLUB WEBRING
+================================= */
 
-/* Webring layout */
-.webring-div #ctwebring {
+.webring-div {
     text-align: center;
+    background-color: var(--header-color);
+    color: var(--name-color);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 1.5vw;
+    margin: 0 12%;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.webring-div a{
+
+    color: var(--name-color);
 }
 
 .webring-div #ctwebring .CTW-nav {
@@ -394,38 +384,45 @@ img.game-img:hover {
     justify-content: center;
 }
 
-/* Webring buttons */
-.webring-div .CTW-link-name {
+/* Webring navigation */
+#ctwebring .CTW-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Left and right website buttons */
+#ctwebring a.CTW-link-name,
+#ctwebring a.CTW-link-name:visited {
     display: inline-block;
     background-color: var(--name-color);
     color: var(--header-color);
-    
-    border-radius: 12px;
-    padding: 10px 20px;
-    margin: 5px;
-
-    text-decoration: none;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     font-size: 1.5vw;
     font-weight: bold;
+    text-decoration: none;
+
+    padding: 10px 20px;
+    border-radius: 12px;
 
     transition: background-color 0.2s, transform 0.2s;
 }
 
-/* Hover effect */
-.webring-div .CTW-link-name:hover {
+/* Hover */
+#ctwebring a.CTW-link-name:hover {
     background-color: rgb(255, 168, 75);
     color: var(--header-color);
+    text-decoration: none;
     transform: scale(0.97);
 }
 
-/* Visited links */
-.webring-div .CTW-link-name:visited {
-    color: var(--header-color);
-}
-
-/* Keep the arrows aligned */
-.webring-div .CTW-link-direction {
+/* Arrows */
+#ctwebring .CTW-link-direction {
     color: var(--name-color);
     font-size: 1.5em;
 }
